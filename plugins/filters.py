@@ -27,10 +27,10 @@ async def addfilter(client, message):
                 chat = await client.get_chat(grpid)
                 title = chat.title
             except:
-                await message.reply_text("Make sure I'm present in your group!!", quote=True)
+                await message.reply_text("Make sure I'm present in your group !!!", quote=True)
                 return
         else:
-            await message.reply_text("I'm not connected to any groups!", quote=True)
+            await message.reply_text("I'm Not ConnectedC To Any Groups !!!", quote=True)
             return
 
     elif chat_type in ["group", "supergroup"]:
@@ -213,7 +213,7 @@ async def deletefilter(client, message):
         cmd, text = message.text.split(" ", 1)
     except:
         await message.reply_text(
-            "<i>Mention the filtername which you wanna delete!</i>\n\n"
+            "<b>Mention The Filtername Which You Wanna Delete !!!</b>\n\n"
             "<code>/del filtername</code>\n\n"
             "Use /viewfilters to view all available filters",
             quote=True
