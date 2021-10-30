@@ -13,9 +13,9 @@ async def addconnection(client,message):
             cmd, group_id = message.text.split(" ", 1)
         except:
             await message.reply_text(
-                "<b>Enter in correct format!</b>\n\n"
+                "<b>Enter In Correct Format !!!</b>\n\n"
                 "<code>/connect groupid</code>\n\n"
-                "<i>Get your Group id by adding this bot to your group and use  <code>/id</code></i>",
+                "<b>Get your Group Id By Adding This Bot To Your Group And Use  <code>/id</code></b>",
                 quote=True
             )
             return
@@ -30,12 +30,12 @@ async def addconnection(client,message):
             and st.status != "creator"
             and str(userid) not in ADMINS
         ):
-            await message.reply_text("You should be an admin in Given group!", quote=True)
+            await message.reply_text("You should be an admin in Given group !!!", quote=True)
             return
     except Exception as e:
         print(e)
         await message.reply_text(
-            "Invalid Group ID!\n\nIf correct, Make sure I'm present in your group!!",
+            "Invalid Group ID!!!\n\nIf Correct, Make Sure I'm Present In Your Group !!!",
             quote=True,
         )
 
@@ -49,7 +49,7 @@ async def addconnection(client,message):
             addcon = await add_connection(str(group_id), str(userid))
             if addcon:
                 await message.reply_text(
-                    f"Sucessfully connected to **{title}**\nNow manage your group from my pm !",
+                    f"Sucessfully Connected To **{title}**\nNow Manage Your Group From My Pm !",
                     quote=True,
                     parse_mode="md"
                 )
