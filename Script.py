@@ -4,14 +4,14 @@ class script(object):
     HELP_TXT = """𝙷𝙴𝚈 {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
     ABOUT_TXT = """
- My Name : <a href='https://telegram.dog/Filter_KristyBot'> Filter Admin Bot</a>
- Developer : <a href='https://telegram.dog/I_m_Kristy'>✯°• Iᴍ Kʀɪsᴛʏ கிறிஸ்டி Via @HiroshiBots •°✯ « Tᴇᴀᴍ Kʀɪsᴛʏ »</a>
- Credits : <a href='https://telegram.dog/TeamEvamaria'>EvaMaria</a> & <a href='https://github.com/EvamariaTG/EvaMaria
- Server : <a href='https://Heroku.com'>Heroku</a>
- Library : <a href='https://Pyrogram.com'>Pyrogram</a>
- Source Code : <a href='https://telegram.dog/WantSourceCode'>Click Here</a>
- Updates Channel : <a href='https://telegram.dog/KristyBots'>@KristyBots</a>
- Powerded By : <a href='https://telegram.dog/TamilMV_WEB'>@TamilMV_WEB</a>
+ <b>My Name : <a href='https://telegram.dog/Filter_KristyBot'> Filter Admin Bot</a>
+  Developer : <a href='https://telegram.dog/I_m_Kristy'>✯°• Iᴍ Kʀɪsᴛʏ கிறிஸ்டி Via @HiroshiBots •°✯ « Tᴇᴀᴍ Kʀɪsᴛʏ »</a>
+  Credits : <a href='https://telegram.dog/TeamEvamaria'>EvaMaria</a> & <a href='https://github.com/EvamariaTG/EvaMaria</a>
+  Server : <a href='https://Heroku.com'>Heroku</a>
+  Library : <a href='https://Pyrogram.com'>Pyrogram</a>
+  Source Code : <a href='https://telegram.dog/WantSourceCode'>Click Here</a>
+  Updates Channel : <a href='https://telegram.dog/KristyBots'>@KristyBots</a>
+  Powerded By : <a href='https://telegram.dog/TamilMV_WEB'>@TamilMV_WEB</a></b>
 """
     SOURCE_TXT = """<b>NOTE:</b>
 - Eva Maria is a open source project. 
