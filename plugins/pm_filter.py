@@ -383,6 +383,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('Manuel Filter', callback_data='manuelfilter'),
             InlineKeyboardButton('Connection', callback_data='coct')
+            ],[
             InlineKeyboardButton('Extra Mods', callback_data='extra'),
             ],[
             InlineKeyboardButton('🏠 Home', callback_data='start'),
