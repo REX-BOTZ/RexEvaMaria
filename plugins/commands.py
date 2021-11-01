@@ -24,11 +24,11 @@ async def start(client, message):
             InlineKeyboardButton('🔍 Search Movies', switch_inline_query_current_chat=''),
             InlineKeyboardButton('Updates Channel 📮', url='https://t.me/KristyBots')
             ],[
-            InlineKeyboardButton('🆘 Help', callback_data='help'),
-            InlineKeyboardButton('About 📌', callback_data='about')
-            ],[
             InlineKeyboardButton('Movie Channel 🔖', url='https://t.me/TamilMV_WEB'),
             InlineKeyboardButton('Discussion Group 📢', url='https://t.me/TMV_Discussion')
+            ],[
+            InlineKeyboardButton('🆘 Help', callback_data='help'),
+            InlineKeyboardButton('About 📌', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
