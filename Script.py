@@ -3,14 +3,21 @@ class script(object):
 𝙼𝚈 𝙽𝙰𝙼𝙴 𝙸𝚂 <a href='https://t.me/EvaMariaBot'>𝙴𝚅𝙰 𝙼𝙰𝚁𝙸𝙰</a>, 𝙸 𝙲𝙰𝙽 𝙿𝚁𝙾𝚅𝙸𝙳𝙴 𝙼𝙾𝚅𝙸𝙴𝚂, 𝙹𝚄𝚂𝚃 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 𝙰𝙽𝙳 𝙴𝙽𝙹𝙾𝚈 😍"""
     HELP_TXT = """𝙷𝙴𝚈 {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
-    ABOUT_TXT = """
- <b>My Name : <a href='https://telegram.dog/Filter_KristyBot'> Filter Admin Bot</a>
+    ABOUT_TXT = """<b>
+  My Name : <a href='https://telegram.dog/Filter_KristyBot'> Filter Admin Bot</a>
+ 
   Developer : <a href='https://telegram.dog/I_m_Kristy'>✯°• Iᴍ Kʀɪsᴛʏ கிறிஸ்டி Via @HiroshiBots •°✯ « Tᴇᴀᴍ Kʀɪsᴛʏ »</a>
-  Credits : <a href='https://telegram.dog/TeamEvamaria'>EvaMaria</a> & <a href='https://github.com/EvamariaTG/EvaMaria</a>
+  
+  Credits : <a href='https://telegram.dog/TeamEvamaria'>@EvaMaria</a> & <a href='https://github.com/EvamariaTG/EvaMaria'>Team</a>
+  
   Server : <a href='https://Heroku.com'>Heroku</a>
+  
   Library : <a href='https://Pyrogram.com'>Pyrogram</a>
+  
   Source Code : <a href='https://telegram.dog/WantSourceCode'>Click Here</a>
+  
   Updates Channel : <a href='https://telegram.dog/KristyBots'>@KristyBots</a>
+  
   Powerded By : <a href='https://telegram.dog/TamilMV_WEB'>@TamilMV_WEB</a></b>
 """
     SOURCE_TXT = """<b>NOTE:</b>
