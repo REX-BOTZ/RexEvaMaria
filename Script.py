@@ -5,7 +5,7 @@ I am A Simple Auto Filter Bot + Inline Movie Search + Manual Filter Bot...I Can 
     HELP_TXT = """<b>Bruh {}
 Here Is The Help For My Commands</b>."""
     ABOUT_TXT = """<b>
-🤖 My Name : <a href='https://telegram.dog/Filter_KristyBot'> Filter Admin Bot</a>
+🤖 My Name : <a href='https://telegram.dog/ThalaPathy_VjBot'>Tʜᴀʟᴀᴘᴀᴛʜʏ Vᴊ​ 👑</a>
  
 👨‍💻 Developer : <a href='https://telegram.dog/I_m_Kristy'>✯°• Iᴍ Kʀɪsᴛʏ கிறிஸ்டி Via @HiroshiBots •°✯ « Tᴇᴀᴍ Kʀɪsᴛʏ »</a>
   
