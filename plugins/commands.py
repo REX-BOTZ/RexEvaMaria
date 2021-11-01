@@ -27,7 +27,7 @@ async def start(client, message):
             InlineKeyboardButton('🆘 Help', callback_data='help'),
             InlineKeyboardButton('About 📌', callback_data='about')
             ],[
-            InlineKeyboardButton('Movie's Channel 🔖', url='https://t.me/TamilMV_WEB'),
+            InlineKeyboardButton('Movie Channel 🔖', url='https://t.me/TamilMV_WEB'),
             InlineKeyboardButton('Discussion Group 📢', url='https://t.me/TMV_Discussion')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
