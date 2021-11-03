@@ -400,8 +400,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('🏠 Home', callback_data='start'),
             InlineKeyboardButton('🔐 Close', callback_data='close_data')
             ],[
-            InlineKeyboardButton('Updates Channel 📮', url='https://t.me/KristyBots'),
-            InlineKeyboardButton('Movie Channel 🔖', url='https://t.me/TamilMV_WEB')
+            InlineKeyboardButton('Updates Channel 📮', url='https://t.me/KOT_BOTS'),
+            InlineKeyboardButton('Movie Channel 🔖', url='https://t.me/KING_OF_THE_CARTOONS_CHANNEL')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
