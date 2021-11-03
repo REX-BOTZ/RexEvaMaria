@@ -9,7 +9,7 @@ Here Is The Help For My Commands</b>."""
  
 👨‍💻 Developer : <a href='https://telegram.dog/KOT_FREE_DE_LA_HOYA_OFF'>Kᴏᴛ Dᴇᴠᴇʟᴏᴘᴇʀ</a>
   
-📌 Credits : <a href='https://telegram.dog/KOT_REPORTS'>@KOT REPORTS</a>
+📌 Credits : <a href='https://telegram.dog/KOT_REPORS'>@KOT REPORTS</a>
   
 📡 Server : <a href='https://Heroku.com'>Heroku</a>
   
