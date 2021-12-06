@@ -362,13 +362,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/KOT_MOVIES_FILTER_BOT?startgroup=true')
+            InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/VK_MOVIES_PROVIDER_BOT?startgroup=true')
             ],[
             InlineKeyboardButton('🔍 Search Movies', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('Updates Channel 📮', url='https://t.me/KOT_BOTS')
+            InlineKeyboardButton('Updates Channel 📮', url='https://t.me/VK_LINKS')
             ],[
-            InlineKeyboardButton('Movie Channel 🔖', url='https://t.me/KING_OF_THE_CARTOONS_CHANNEL'),
-            InlineKeyboardButton('ANY REPORS 📢', url='https://t.me/KOT_REPORS')
+            InlineKeyboardButton('Movie Channel 🔖', url='https://t.me/Tamilnewmovies_vk'),
+            InlineKeyboardButton('ANY REPORS 📢', url='https://t.me/KOT_FREE_DE_LA_HOYA_OFF')
             ],[
             InlineKeyboardButton('🆘 Help', callback_data='help'),
             InlineKeyboardButton('About 📌', callback_data='about')
@@ -400,8 +400,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('🏠 Home', callback_data='start'),
             InlineKeyboardButton('🔐 Close', callback_data='close_data')
             ],[
-            InlineKeyboardButton('Updates Channel 📮', url='https://t.me/KOT_BOTS'),
-            InlineKeyboardButton('Movie Channel 🔖', url='https://t.me/KING_OF_THE_CARTOONS_CHANNEL')
+            InlineKeyboardButton('Updates Channel 📮', url='https://t.me/VK_LINKS'),
+            InlineKeyboardButton('Movie Channel 🔖', url='https://t.me/Tamilnewmovies_vk')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -550,9 +550,9 @@ async def auto_filter(client, message):
             )
         imdb=await get_poster(search)
         if imdb and imdb.get('poster'):
-            await message.reply_photo(photo=imdb.get('poster'), caption=f"<b>🗂️ Movie Name : {search}</b>\n\n<b>🏷 Title : <a href={imdb['url']}>{imdb.get('title')}</a>\n🎭 Genres : {imdb.get('genres')}\n📆 Year : <a href={imdb['url']}/releaseinfo>{imdb.get('year')}</a>\n🌟 Ratings : <a href={imdb['url']}/ratings>{imdb.get('rating')}</a> / 10\n\n📢 For More Movies Join Here : @KING_OF_THE_CARTOONS_CHANNEL</b>", reply_markup=InlineKeyboardMarkup(btn))
+            await message.reply_photo(photo=imdb.get('poster'), caption=f"<b>🗂️ Movie Name : {search}</b>\n\n<b>🏷 Title : <a href={imdb['url']}>{imdb.get('title')}</a>\n🎭 Genres : {imdb.get('genres')}\n📆 Year : <a href={imdb['url']}/releaseinfo>{imdb.get('year')}</a>\n🌟 Ratings : <a href={imdb['url']}/ratings>{imdb.get('rating')}</a> / 10\n\n📢 For More Movies Join Here : @VK_LINKS</b>", reply_markup=InlineKeyboardMarkup(btn))
         elif imdb:
-            await message.reply_text(f"<b>🗂️ Movie Name : {search}</b>\n\n<b>🏷 Title : <a href={imdb['url']}>{imdb.get('title')}</a>\n🎭 Genres : {imdb.get('genres')}\n📆 Year : <a href={imdb['url']}/releaseinfo>{imdb.get('year')}</a>\n🌟 Ratings : <a href={imdb['url']}/ratings>{imdb.get('rating')}</a> / 10\n\n📢 For More Movies Join Here : @KING_OF_THE_CARTOONS_CHANNEL</b>", reply_markup=InlineKeyboardMarkup(btn))
+            await message.reply_text(f"<b>🗂️ Movie Name : {search}</b>\n\n<b>🏷 Title : <a href={imdb['url']}>{imdb.get('title')}</a>\n🎭 Genres : {imdb.get('genres')}\n📆 Year : <a href={imdb['url']}/releaseinfo>{imdb.get('year')}</a>\n🌟 Ratings : <a href={imdb['url']}/ratings>{imdb.get('rating')}</a> / 10\n\n📢 For More Movies Join Here : @VK_LINKS</b>", reply_markup=InlineKeyboardMarkup(btn))
         else:
             await message.reply_text(f"<b>🗂️ Movie Name {search} ‌‌‌‌‎ </b>", reply_markup=InlineKeyboardMarkup(btn))
         
