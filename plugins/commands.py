@@ -19,13 +19,13 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/KOT_MOVIES_FILTER_BOT?startgroup=true')
+            InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/VK_MOVIES_PROVIDER_BOT?startgroup=true')
             ],[
             InlineKeyboardButton('🔍 Search Movies', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('Updates Channel 📮', url='https://t.me/KOT_BOTS')
+            InlineKeyboardButton('Updates Channel 📮', url='https://t.me/VK_LINKS')
             ],[
-            InlineKeyboardButton('Movie Channel 🔖', url='https://t.me/KING_OF_THE_CARTOONS_CHANNEL'),
-            InlineKeyboardButton('AMY REPORTS 📢', url='https://t.me/KOT_REPORS')
+            InlineKeyboardButton('Movie Channel 🔖', url='https://t.me/Tamilnewmovies_vk'),
+            InlineKeyboardButton('AMY REPORTS 📢', url='https://t.me/KOT_FREE_DE_LA_HOYA_OFF')
             ],[
             InlineKeyboardButton('🆘 Help', callback_data='help'),
             InlineKeyboardButton('About 📌', callback_data='about')
@@ -65,13 +65,13 @@ async def start(client, message):
         return
     if len(message.command) ==2 and message.command[1] in ["subscribe", "error", "okay"]:
         buttons = [[
-            InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/KOT_MOVIES_FILTER_BOT?startgroup=true')
+            InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/VK_MOVIES_PROVIDER_BOT?startgroup=true')
             ],[
             InlineKeyboardButton('🔍 Search Movies', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('Updates Channel 📮', url='https://t.me/KOT_BOTS')
+            InlineKeyboardButton('Updates Channel 📮', url='https://t.me/VK_LINKS')
             ],[
-            InlineKeyboardButton('Movie Channel 🔖', url='https://t.me/KING_OF_THE_CARTOONS_CHANNEL'),
-            InlineKeyboardButton('ANY REPORTS 📢', url='https://t.me/KOT_REPORS')
+            InlineKeyboardButton('Movie Channel 🔖', url='https://t.me/Tamilnewmovies_vk'),
+            InlineKeyboardButton('ANY REPORTS 📢', url='https://t.me/KOT_FREE_DE_LA_HOYA_OFF')
             ],[
             InlineKeyboardButton('🆘 Help', callback_data='help'),
             InlineKeyboardButton('About 📌', callback_data='about')
