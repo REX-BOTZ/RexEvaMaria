@@ -5,11 +5,11 @@ class script(object):
     HELP_TXT = """<b>Bruh {}
 Here Is The Help For My Commands</b>."""
     ABOUT_TXT = """<b>
-🤖 My Name : <a href='https://telegram.dog/KOT_MOVIES_FILTER_BOT'>Kᴏᴛ Tʜᴀʟᴀᴘᴀᴛʜʏ Vɪᴊᴀʏ</a>
+🤖 My Name : <a href='https://telegram.dog/VK_MOVIES_PROVIDER_BOT'>VK_MOVIES_PROVIDER_BOT</a>
  
 👨‍💻 Developer : <a href='https://telegram.dog/KOT_FREE_DE_LA_HOYA_OFF'>Kᴏᴛ Dᴇᴠᴇʟᴏᴘᴇʀ</a>
   
-📌 Credits : <a href='https://telegram.dog/KOT_REPORS'>@KOT REPORTS</a>
+📌 Credits : <a href='https://telegram.dog/KOT_BOTS'>@KOT_BOTS</a>
   
 📡 Server : <a href='https://Heroku.com'>Heroku</a>
   
@@ -17,12 +17,12 @@ Here Is The Help For My Commands</b>."""
   
 📦 Source Code : <a href='https://telegram.dog/KOT_Source_Code'>𝗖𝗟𝗜𝗖𝗞 𝗛𝗘𝗥𝗘</a>
   
-📢 Updates Channel : <a href='https://telegram.dog/KristyBots'>@𝗞𝗢𝗧 𝗕𝗢𝗧𝗦</a>
+📢 Updates Channel : <a href='https://t.me/VK_LINKS'>@VK_LINKS</a>
   
-📮 Powerded By : <a href='https://telegram.dog/KING_OF_THE_CARTOONS_CHANNEL'>@𝗞𝗢𝗧 𝗖𝗔𝗥𝗧𝗢𝗢𝗡𝗦</a>
+📮 Powerded By : <a href='https://t.me/Tamilnewmovies_vk'>VK TAMIL MOVIES</a>
 """
     SOURCE_TXT = """<b>NOTE:</b>
-- 𝗞𝗢𝗧 𝗧𝗛𝗔𝗟𝗔𝗣𝗔𝗧𝗛𝗬 𝗩𝗜𝗝𝗔𝗬 is a open source project. 
+- VK_MOVIES_PROVIDER_BOT this is a paid bot if you need contact dev @KOT_FREE_DE_LA_HOYA_OFF
 - Source - https://t.me/KOT_SOURCE_CODE
 
 <b>DEVS:</b>
@@ -32,7 +32,7 @@ Here Is The Help For My Commands</b>."""
     - Filter Is The Feature Were Users Can Set Automated Replies For A Particular Keyword And Tessa Will Respond Whenever A Keyword Is Found The Message
 
 NOTE :
----> @KOT_MOVIES_FILTER_BOT Should Have Admin Privillage / Rights !!! 
+---> @VK_MOVIES_PROVIDER_BOT Should Have Admin Privillage / Rights !!! 
 ---> Only Admins Can Add Filters In A Chat...
 ---> Alert Buttons Have A Limit Of 64 Characters...
 
@@ -43,11 +43,11 @@ Commands And Usage :
 • /delall - <code>Delete The Whole Filters In A Chat ( Chat Owner Only )</code></b>"""
     BUTTON_TXT = """<b>Help : Buttons
 
-- @KOT_MOVIES_FILTER_BOT Supports Both Url And Alert Inline Buttons.
+- @VK_MOVIES_PROVIDER_BOT Supports Both Url And Alert Inline Buttons.
 
 NOTE :
 ---> Telegram Will Not Allows You To Send Buttons Without Any Content, So Content Is Mandatory.
----> @KOT_MOVIES_FILTER_BOT Supports Buttons With Any Telegram Media Type.
+---> @VK_MOVIES_PROVIDER_BOT Supports Buttons With Any Telegram Media Type.
 ---> Buttons Should Be Properly Parsed As Markdown Format
 
 URL Buttons :
