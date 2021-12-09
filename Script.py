@@ -1,13 +1,13 @@
 class script(object):
     START_TXT = """<b>𝗛𝗘𝗟𝗟𝗢 {},
 
-𝗜 𝗔𝗠 𝗦𝗨𝗣𝗘𝗥 𝗔𝗨𝗧𝗢 𝗙𝗜𝗟𝗧𝗘𝗥 𝗕𝗢𝗧..𝗜 𝗖𝗔𝗡 𝗣𝗿𝗼𝘃𝗶𝗱𝗲 𝗠𝗼𝘃𝗶𝗲𝘀 𝗜𝗻 𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺 𝗚𝗿𝗼𝘂𝗽𝘀....\n\n𝗝𝗨𝗦𝗧 𝗔𝗗𝗗 𝗠𝗘 𝗧𝗢 𝗬𝗢𝗨𝗥 𝗚𝗥𝗢𝗨𝗣 𝗪𝗜𝗧𝗛 𝗔𝗗𝗠𝗜𝗡 𝗥𝗜𝗚𝗛𝗧𝗦 𝗔𝗡𝗗 𝗘𝗡𝗝𝗢𝗬 😍\n\n👨‍💻 𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥 : <a href='https://telegram.dog/KOT_FREE_DE_LA_HOYA_OFF'>ᴋᴏᴛ ᴅᴇᴠᴇʟᴏᴘᴇʀ</a></b>"""
+ɪ Aᴍ Sᴜᴘᴇʀ Aᴜᴛᴏ Fɪʟᴛᴇʀ Bᴏᴛ..ɪ Cᴀɴ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇs Iɴ Tᴇʟᴇɢʀᴀᴍ Gʀᴏᴜᴘs....\n\nI Aᴍ Oɴʟʏ Fᴏʀ @vkmoviesrequest_zone😍\n\n👨‍💻 𝗗ᴇ𝗩ᴇ𝗟ᴏ𝗣ᴇ𝗥 : <a href='https://telegram.dog/KOT_FREE_DE_LA_HOYA_OFF'>ᴋᴏᴛ ᴅᴇᴠᴇʟᴏᴘᴇʀ</a></b>"""
     HELP_TXT = """<b>Bruh {}
 Here Is The Help For My Commands</b>."""
     ABOUT_TXT = """<b>
-🤖 My Name : <a href='https://telegram.dog/VK_MOVIES_PROVIDER_BOT'>VK_MOVIES_PROVIDER_BOT</a>
+🤖 𝗺𝘆 𝗻𝗮𝗺𝗲 : <a href='https://telegram.dog/VK_MOVIES_PROVIDER_BOT'>♡ ᴘʀɪʏᴀɴᴋᴀᴀ ǫᴜᴇᴇɴ | @Vᴋ_Lɪɴᴋs</a>
  
-👨‍💻 Developer : <a href='https://telegram.dog/KOT_FREE_DE_LA_HOYA_OFF'>Kᴏᴛ Dᴇᴠᴇʟᴏᴘᴇʀ</a>
+👨‍💻 𝗗ᴇ𝗩ᴇ𝗟ᴏ𝗣ᴇ𝗥 : <a href='https://telegram.dog/KOT_FREE_DE_LA_HOYA_OFF'>Kᴏᴛ Dᴇᴠᴇʟᴏᴘᴇʀ</a>
   
 📌 Credits : <a href='https://telegram.dog/KOT_BOTS'>@KOT_BOTS</a>
   
