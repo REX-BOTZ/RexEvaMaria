@@ -1,25 +1,22 @@
 class script(object):
     START_TXT = """<b>𝗛𝗘𝗟𝗟𝗢 {},
 
-ɪ Aᴍ Sᴜᴘᴇʀ Aᴜᴛᴏ Fɪʟᴛᴇʀ Bᴏᴛ..ɪ Cᴀɴ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇs Iɴ Tᴇʟᴇɢʀᴀᴍ Gʀᴏᴜᴘs....\n\nI Aᴍ Oɴʟʏ Fᴏʀ @vkmoviesrequest_zone😍\n\n👨‍💻 𝗗ᴇ𝗩ᴇ𝗟ᴏ𝗣ᴇ𝗥 : <a href='https://telegram.dog/KOT_FREE_DE_LA_HOYA_OFF'>ᴋᴏᴛ ᴅᴇᴠᴇʟᴏᴘᴇʀ</a></b>"""
-    HELP_TXT = """<b>Bruh {}
+🙋‍♂𝙸 𝙰𝙼 𝙰𝙽 𝚂𝚄𝙿𝙴𝚁 𝙰𝚄𝚃𝙾 𝙵𝙸𝙻𝚃𝙴𝚁 𝚃𝙴𝙻𝙴𝙶𝚁𝙰𝙼 𝙱𝙾𝚃 𝚃𝙾 𝙿𝚁𝙾𝚅𝙸𝙳𝙴 𝙼𝙾𝚅𝙸𝙴𝚂 𝙸𝙽 𝚃𝙴𝙻𝙴𝙶𝚁𝙰𝙼 𝙶𝚁𝙾𝚄𝙿𝚂...\n\n𝙹𝚄𝚂𝚃 𝙰𝙳𝚂 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 𝚆𝙸𝚃𝙷 𝙰𝙳𝙼𝙸𝙽 𝚁𝙸𝙶𝙷𝚃𝚂 𝙰𝙽𝙳 𝙴𝙽𝙹𝙾𝚈 𝚂𝙴𝚁𝚅𝙸𝙲𝙴💞..\n\n❣️𝙾𝚆𝙽𝙴𝚁 : <a href='https://telegram.dog/heart_recipe'>➳ ✰ 𝑶𝒐 𝑰𝒕'𝒔 𝑴𝒆 🤦</a></b>"""
+    HELP_TXT = """<b>𝙷𝙴𝚈 𝙼𝙰𝙲𝙷𝙸 {}
 Here Is The Help For My Commands</b>."""
     ABOUT_TXT = """<b>
-🤖 𝗺𝘆 𝗻𝗮𝗺𝗲 : <a href='https://telegram.dog/VK_MOVIES_PROVIDER_BOT'>♡ ᴘʀɪʏᴀɴᴋᴀᴀ ǫᴜᴇᴇɴ | @Vᴋ_Lɪɴᴋs</a>
  
-👨‍💻 𝗗ᴇ𝗩ᴇ𝗟ᴏ𝗣ᴇ𝗥 : <a href='https://telegram.dog/KOT_FREE_DE_LA_HOYA_OFF'>Kᴏᴛ Dᴇᴠᴇʟᴏᴘᴇʀ</a>
+✪ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁 : <a href='https://telegram.dog/heart_recipe'>➳ ✰ 𝑶𝒐 𝑰𝒕'𝒔 𝑴𝒆 🤦</a>
   
-📌 Credits : <a href='https://telegram.dog/KOT_BOTS'>@KOT_BOTS</a>
+✪ 𝚄𝙿𝙳𝙰𝚃𝙴𝚂 : <a href='https://telegram.dog/VK_LINKZ'>𝙲𝙻𝙸𝙲𝙺 𝙷𝙴𝚁𝙴</a>
   
-📡 Server : <a href='https://Heroku.com'>Heroku</a>
+✪ 𝚂𝙴𝚁𝚅𝙴𝚁 : <a href='https://Heroku.com'>𝙷𝙴𝚁𝙾𝙺𝚄</a>
   
-📕 Library : <a href='https://Pyrogram.com'>Pyrogram</a>
+✪ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈 : <a href='https://Pyrogram.com'>𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼</a>
   
-📦 Source Code : <a href='https://telegram.dog/KOT_Source_Code'>𝗖𝗟𝗜𝗖𝗞 𝗛𝗘𝗥𝗘</a>
+✪ 𝚂𝙾𝚄𝚁𝙲𝙴 𝙲𝙾𝙳𝙴 : <a href='https://telegram.dog/heart_recipe'>𝙲𝙻𝙸𝙲𝙺 𝚃𝙷𝙸𝚂</a>
   
-📢 Updates Channel : <a href='https://t.me/VK_LINKS'>@VK_LINKS</a>
-  
-📮 Powerded By : <a href='https://t.me/Tamilnewmovies_vk'>VK TAMIL MOVIES</a>
+✪ 𝙼𝙾𝚅𝙸𝙴𝚂 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 : <a href='https://telegram.dog/Tamilnewmovies_vk'>𝚃𝙾𝚄𝙲𝙷 𝙷𝙴𝚁𝙴</a>
 """
     SOURCE_TXT = """<b>NOTE:</b>
 - VK_MOVIES_PROVIDER_BOT this is a paid bot if you need contact dev @KOT_FREE_DE_LA_HOYA_OFF
