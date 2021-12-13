@@ -1,5 +1,5 @@
 class script(object):
-    START_TXT = """<b>𝗛𝗘𝗟𝗟𝗢 {},
+    START_TXT = """<b>𝙷𝙸 𝙼𝙰𝙲𝙷𝙸 {},
 
 🙋‍♂𝙸 𝙰𝙼 𝙰𝙽 𝚂𝚄𝙿𝙴𝚁 𝙰𝚄𝚃𝙾 𝙵𝙸𝙻𝚃𝙴𝚁 𝚃𝙴𝙻𝙴𝙶𝚁𝙰𝙼 𝙱𝙾𝚃 𝚃𝙾 𝙿𝚁𝙾𝚅𝙸𝙳𝙴 𝙼𝙾𝚅𝙸𝙴𝚂 𝙸𝙽 𝚃𝙴𝙻𝙴𝙶𝚁𝙰𝙼 𝙶𝚁𝙾𝚄𝙿𝚂...\n\n𝙹𝚄𝚂𝚃 𝙰𝙳𝚂 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 𝚆𝙸𝚃𝙷 𝙰𝙳𝙼𝙸𝙽 𝚁𝙸𝙶𝙷𝚃𝚂 𝙰𝙽𝙳 𝙴𝙽𝙹𝙾𝚈 𝚂𝙴𝚁𝚅𝙸𝙲𝙴💞..\n\n❣️𝙾𝚆𝙽𝙴𝚁 : <a href='https://telegram.dog/heart_recipe'>➳ ✰ 𝑶𝒐 𝑰𝒕'𝒔 𝑴𝒆 🤦</a></b>"""
     HELP_TXT = """<b>𝙷𝙴𝚈 𝙼𝙰𝙲𝙷𝙸 {}
@@ -19,19 +19,18 @@ Here Is The Help For My Commands</b>."""
 ✪ 𝙼𝙾𝚅𝙸𝙴𝚂 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 : <a href='https://telegram.dog/Tamilnewmovies_vk'>𝚃𝙾𝚄𝙲𝙷 𝙷𝙴𝚁𝙴</a>
 """
     SOURCE_TXT = """<b>NOTE:</b>
-- VK_MOVIES_PROVIDER_BOT this is a paid bot if you need contact dev @KOT_FREE_DE_LA_HOYA_OFF
-- Source - https://t.me/KOT_SOURCE_CODE
+- Source - https://t.me/heart_recipe
 
 <b>DEVS:</b>
-- <a href=https://t.me/KOT_DEVELOPERS>𝗧𝗘𝗔𝗠 𝗞𝗢𝗧</a>"""
+- <a href=https://telegram.dog/heart_recipe>➳ ✰ 𝑶𝒐 𝑰𝒕'𝒔 𝑴𝒆 🤦</a>"""
     MANUELFILTER_TXT = """<b>Help : Manual Filters
     
     - Filter Is The Feature Were Users Can Set Automated Replies For A Particular Keyword And Tessa Will Respond Whenever A Keyword Is Found The Message
 
 NOTE :
----> @VK_MOVIES_PROVIDER_BOT Should Have Admin Privillage / Rights !!! 
----> Only Admins Can Add Filters In A Chat...
----> Alert Buttons Have A Limit Of 64 Characters...
+♠ ♡ ᴘʀɪʏᴀɴᴋᴀᴀ ǫᴜᴇᴇɴ | @Vᴋ_Lɪɴᴋs ★ Should Have Admin Privillage / Rights !!! 
+♠ Only Admins Can Add Filters In A Chat...
+♠ Alert Buttons Have A Limit Of 64 Characters...
 
 Commands And Usage :
 • /filter - <code>Add A Filter In Chat</code>
@@ -40,15 +39,15 @@ Commands And Usage :
 • /delall - <code>Delete The Whole Filters In A Chat ( Chat Owner Only )</code></b>"""
     BUTTON_TXT = """<b>Help : Buttons
 
-- @VK_MOVIES_PROVIDER_BOT Supports Both Url And Alert Inline Buttons.
+- ♡ ᴘʀɪʏᴀɴᴋᴀᴀ ǫᴜᴇᴇɴ | @Vᴋ_Lɪɴᴋs ★ Supports Both Url And Alert Inline Buttons.
 
 NOTE :
----> Telegram Will Not Allows You To Send Buttons Without Any Content, So Content Is Mandatory.
----> @VK_MOVIES_PROVIDER_BOT Supports Buttons With Any Telegram Media Type.
----> Buttons Should Be Properly Parsed As Markdown Format
+❖ Telegram Will Not Allows You To Send Buttons Without Any Content, So Content Is Mandatory.
+❖ ♡ ᴘʀɪʏᴀɴᴋᴀᴀ ǫᴜᴇᴇɴ | @Vᴋ_Lɪɴᴋs ★ Supports Buttons With Any Telegram Media Type.
+❖ Buttons Should Be Properly Parsed As Markdown Format
 
 URL Buttons :
-<code>[Button Text](buttonurl:https://telegram.dog/KOT_BOTS)</code>
+<code>[Button Text](buttonurl:https://telegram.dog/VKLINKZ_EZONE_BOT)</code>
 
 Alert buttons :
 <code>[Button Text](buttonalert:This Is An Alert Message)</code></b>"""
@@ -58,8 +57,8 @@ Alert buttons :
 - It Helps To Avoid Spamming In Groups.
 
 NOTE :
----> Only Admins Can Add A Connection.
----> Send <code>/connect</code> For Connecting Me To Ur PM
+🍭 Only Admins Can Add A Connection.
+🍭 Send <code>/connect</code> For Connecting Me To Ur PM
 
 Commands And Usage :
 • /connect  - <code>Connect A Particular Chat To Your PM</code>
@@ -88,11 +87,12 @@ Commands and Usage :
 • /unban  - <code>To Unban a User.</code>
 • /channel - <code>To Get List Of Total Connected Channels</code>
 • /broadcast - <code>To Broadcast a Message To All Users</code></b>"""
-    STATUS_TXT = """<b>--> Total Files</b> : <code>{}</code>
-<b>--> Total Users</b> : <code>{}</code>
-<b>--> Total Chats</b> : <code>{}</code>
-<b>--> Used Storage</b> : <code>{}</code> MIB
-<b>--> Free Storage</b> : <code>{}</code> MIB"""
+    STATUS_TXT = """
+<b>✯ 𝚃𝙾𝚃𝙰𝙻 𝙵𝙸𝙻𝙴𝚂</b> : <code>{}</code>
+<b>✯ 𝚃𝙾𝚃𝙰𝙻 𝚄𝚂𝙴𝚁𝚂</b> : <code>{}</code>
+<b>✯ 𝚃𝙾𝚃𝙰𝙻 𝙲𝙷𝙰𝚃𝚂</b> : <code>{}</code>
+<b>✯ 𝚄𝚂𝙴𝙳 𝚂𝚃𝙾𝚁𝙰𝙶𝙴</b> : <code>{}</code> MIB
+<b>✯ 𝙵𝚁𝙴𝙴 𝚂𝚃𝙾𝚁𝙰𝙶𝙴</b> : <code>{}</code> MIB"""
     LOG_TEXT_G = """#NewGroup
 Group = {}(<code>{}</code>)
 Total Members = <code>{}</code>
