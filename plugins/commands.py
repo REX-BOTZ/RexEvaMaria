@@ -19,16 +19,16 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('Mᴏᴠɪᴇs Rᴇǫᴜᴇsᴛ', url='https://t.me/vkmoviesrequest_zone')
+            InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/VKLINKZ_FZONE_BOT?startgroup=true')
             ],[
-            InlineKeyboardButton('🔍 Search Movies', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('Mᴀɪɴ Cʜᴀɴɴᴇʟ  📮', url='https://t.me/VK_LINKZ')
+            InlineKeyboardButton('🔍 Search Movies 🌟', switch_inline_query_current_chat=''),
+            InlineKeyboardButton('📣 Updates 📌 ', url='https://t.me/VK_LINKZ')
             ],[
-            InlineKeyboardButton('Hᴏᴡ Tᴏ Dᴏᴡɴʟᴏᴀᴅ 🔖', url='https://t.me/vkmoviesrequest_zone/3777'),
-            InlineKeyboardButton('Aɴʏ Rᴇᴘᴏʀᴛ 📢', url='https://t.me/KOT_FREE_DE_LA_HOYA_OFF')
+            InlineKeyboardButton('⚠️ Movies Channel 🎬', url='https://t.me/vkmoviesrequest_zone/3777'),
+            InlineKeyboardButton('❣️ Owner 🍹', url='https://t.me/heart_recipe')
             ],[
-            InlineKeyboardButton('🆘 ʜᴇʟᴘ', callback_data='help'),
-            InlineKeyboardButton('Aʙᴏᴜᴛ 📌', callback_data='about')
+            InlineKeyboardButton('😥 ʜᴇʟᴘ 🌀', callback_data='help'),
+            InlineKeyboardButton('💓 Aʙᴏᴜᴛ 🗑', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -49,13 +49,13 @@ async def start(client, message):
         btn = [
             [
                 InlineKeyboardButton(
-                    "🤖 Join Updates Channel", url=invite_link.invite_link
+                    "🧐 Join Updates Channel ❣️", url=invite_link.invite_link
                 )
             ]
         ]
 
         if message.command[1] != "subscribe":
-            btn.append([InlineKeyboardButton(" 🔄 Try Again", callback_data=f"checksub#{message.command[1]}")])
+            btn.append([InlineKeyboardButton(" 🌀 Try Again 🌀", callback_data=f"checksub#{message.command[1]}")])
         await client.send_message(
             chat_id=message.from_user.id,
             text="**Please Join My Updates Channel to use this Bot!**",
@@ -67,14 +67,14 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('Mᴏᴠɪᴇs Rᴇǫᴜᴇsᴛ', url='https://t.me/vkmoviesrequest_zone')
             ],[
-            InlineKeyboardButton('🔍 Search Movies', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('Mᴀɪɴ Cʜᴀɴɴᴇʟ  📮', url='https://t.me/VK_LINKZ')
+            InlineKeyboardButton('🔍 Search Movies 🌟', switch_inline_query_current_chat=''),
+            InlineKeyboardButton('📣 Updates 📌', url='https://t.me/VK_LINKZ')
             ],[
-            InlineKeyboardButton('Hᴏᴡ Tᴏ Dᴏᴡɴʟᴏᴀᴅ 🔖', url='https://t.me/vkmoviesrequest_zone/3777'),
-            InlineKeyboardButton('Aɴʏ Rᴇᴘᴏʀᴛ 📢', url='https://t.me/KOT_FREE_DE_LA_HOYA_OFF')
+            InlineKeyboardButton('⚠️ Movies Channel 🎬', url='https://t.me/Tamilnewmovies_vk'),
+            InlineKeyboardButton('❣️ Owner 🍹', url='https://t.me/heart_recipe')
             ],[
-            InlineKeyboardButton('🆘 ʜᴇʟᴘ', callback_data='help'),
-            InlineKeyboardButton('Aʙᴏᴜᴛ📌', callback_data='about')
+            InlineKeyboardButton('😥 ʜᴇʟᴘ 🌀', callback_data='help'),
+            InlineKeyboardButton('💓 Aʙᴏᴜᴛ 🗑', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
