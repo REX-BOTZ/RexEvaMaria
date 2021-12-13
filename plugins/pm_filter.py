@@ -400,7 +400,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('🏠 Home', callback_data='start'),
             InlineKeyboardButton('🔐 Close', callback_data='close_data')
             ],[
-            InlineKeyboardButton('⚠️ Movies Channel 🎬', url='https://t.me/https://t.me/Tamilnewmovies_vk'),
+            InlineKeyboardButton('⚠️ Movies Channel 🎬', url='https://t.me/Tamilnewmovies_vk'),
             InlineKeyboardButton('📣 Updates 📌', url='https://t.me/VK_LINKZ')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
