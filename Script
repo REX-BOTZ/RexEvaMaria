@@ -1,34 +1,40 @@
 class script(object):
-    START_TXT = """<b>𝙷𝙸 𝙼𝙰𝙲𝙷𝙸 {},
+    START_TXT = """<b>𝙷𝙸 BRO {},
 
-🙋‍♂𝙸 𝙰𝙼 𝙰𝙽 𝚂𝚄𝙿𝙴𝚁 𝙰𝚄𝚃𝙾 𝙵𝙸𝙻𝚃𝙴𝚁 𝚃𝙴𝙻𝙴𝙶𝚁𝙰𝙼 𝙱𝙾𝚃 𝚃𝙾 𝙿𝚁𝙾𝚅𝙸𝙳𝙴 𝙼𝙾𝚅𝙸𝙴𝚂 𝙸𝙽 𝚃𝙴𝙻𝙴𝙶𝚁𝙰𝙼 𝙶𝚁𝙾𝚄𝙿𝚂...\n\n𝙹𝚄𝚂𝚃 𝙰𝙳𝚂 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 𝚆𝙸𝚃𝙷 𝙰𝙳𝙼𝙸𝙽 𝚁𝙸𝙶𝙷𝚃𝚂 𝙰𝙽𝙳 𝙴𝙽𝙹𝙾𝚈 𝚂𝙴𝚁𝚅𝙸𝙲𝙴💞..\n\n❣️𝙾𝚆𝙽𝙴𝚁 : <a href='https://telegram.dog/heart_recipe'>➳ ✰ 𝑶𝒐 𝑰𝒕'𝒔 𝑴𝒆 🤦</a></b>"""
+🙋‍♂𝙸 𝙰𝙼 𝙰𝙽 𝚂𝚄𝙿𝙴𝚁 𝙰𝚄𝚃𝙾 𝙵𝙸𝙻𝚃𝙴𝚁 𝚃𝙴𝙻𝙴𝙶𝚁𝙰𝙼 𝙱𝙾𝚃 𝚃𝙾 𝙿𝚁𝙾𝚅𝙸𝙳𝙴 𝙼𝙾𝚅𝙸𝙴𝚂 𝙸𝙽 𝚃𝙴𝙻𝙴𝙶𝚁𝙰𝙼 𝙶𝚁𝙾𝚄𝙿𝚂...\n\n𝙹𝚄𝚂𝚃 𝙰𝙳𝚂 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 𝚆𝙸𝚃𝙷 𝙰𝙳𝙼𝙸𝙽 𝚁𝙸𝙶𝙷𝚃𝚂 𝙰𝙽𝙳 𝙴𝙽𝙹𝙾𝚈 𝚂𝙴𝚁𝚅𝙸𝙲𝙴💞..\n\n❣️𝙾𝚆𝙽𝙴𝚁 : <a href='https://t.me/KOT_FREE_DE_LA_HOYA_OFF'>✯°• Kᴏᴛ Fʀᴇᴇ Dᴇ Lᴀ Hᴏʏᴀ Oғғ °•✯ | ✪ Bᴏᴛs CʀᴇᴀᴛᴏR ✪</a></b>"""
     HELP_TXT = """<b>𝙷𝙴𝚈 𝙼𝙰𝙲𝙷𝙸 {}
 Here Is The Help For My Commands</b>."""
     ABOUT_TXT = """<b>
  
-✪ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁 : <a href='https://telegram.dog/heart_recipe'>➳ ✰ 𝑶𝒐 𝑰𝒕'𝒔 𝑴𝒆 🤦</a>
-  
-✪ 𝚄𝙿𝙳𝙰𝚃𝙴𝚂 : <a href='https://telegram.dog/VK_LINKZ'>𝙲𝙻𝙸𝙲𝙺 𝙷𝙴𝚁𝙴</a>
-  
-✪ 𝚂𝙴𝚁𝚅𝙴𝚁 : <a href='https://Heroku.com'>𝙷𝙴𝚁𝙾𝙺𝚄</a>
-  
-✪ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈 : <a href='https://Pyrogram.com'>𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼</a>
-  
-✪ 𝚂𝙾𝚄𝚁𝙲𝙴 𝙲𝙾𝙳𝙴 : <a href='https://telegram.dog/heart_recipe'>𝙲𝙻𝙸𝙲𝙺 𝚃𝙷𝙸𝚂</a>
-  
-✪ 𝙼𝙾𝚅𝙸𝙴𝚂 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 : <a href='https://telegram.dog/Tamilnewmovies_vk'>𝚃𝙾𝚄𝙲𝙷 𝙷𝙴𝚁𝙴</a>
+╭──────[@KOT_BOTS]───────〄
+│
+├ Nᴀᴍᴇ : <a href='https://t.me/KOT_MOVIES_FILTER_BOT'>Tʜᴀʟᴀᴘᴀᴛʜʏ Vɪᴊᴀʏ</a>
+│
+├ Sᴇʀᴠᴇʀ : <a href='https://heroku.com/'>Hᴇʀᴏᴋᴜ</a>
+│ 
+├ Lᴀɴɢᴜᴀɢᴇ : <a href='https://docs.pyrogram.org/'>Pʏᴛʜᴏɴ 3.9.6</a>
+│
+├ Vᴇʀꜱɪᴏɴ : <a href='https://t.me/KOT_MOVIES_FILTER_BOT'>1.5.0 Bᴇᴛᴀ</a>
+│
+├ Fʀᴀᴍᴇᴡᴏʀᴋ : <a href='https://docs.pyrogram.org/'>Pʏʀᴏɢʀᴀᴍ 1.2.9</a>
+│
+├ Dᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://t.me/KOT_FREE_DE_LA_HOYA_OFF'>✯°• Kᴏᴛ Fʀᴇᴇ Dᴇ Lᴀ Hᴏʏᴀ Oғғ °•✯ | ✪ Bᴏᴛs CʀᴇᴀᴛᴏR ✪</a>
+│
+├ Pᴏᴡᴇʀᴇᴅ Bʏ : <a href='https://t.me/KOT_LINKS_TEAM'>Kᴏᴛ Lɪɴᴋs Tᴇᴀᴍ</a>
+│
+├ Uᴘᴅᴀᴛᴇᴅ Oɴ : [ 18.11.2021 ] 06:39 PM
 """
     SOURCE_TXT = """<b>NOTE:</b>
 - Source - https://t.me/heart_recipe
 
-<b>DEVS:</b>
-- <a href=https://telegram.dog/heart_recipe>➳ ✰ 𝑶𝒐 𝑰𝒕'𝒔 𝑴𝒆 🤦</a>"""
+<b>ᴅᴇᴠᴇᴀ:</b>
+- <a href=https://t.me/KOT_FREE_DE_LA_HOYA_OFF>✯°• Kᴏᴛ Fʀᴇᴇ Dᴇ Lᴀ Hᴏʏᴀ Oғғ °•✯ | ✪ Bᴏᴛs CʀᴇᴀᴛᴏR ✪</a>"""
     MANUELFILTER_TXT = """<b>Help : Manual Filters
     
     - Filter Is The Feature Were Users Can Set Automated Replies For A Particular Keyword And Tessa Will Respond Whenever A Keyword Is Found The Message
 
 NOTE :
-♠ ♡ ᴘʀɪʏᴀɴᴋᴀᴀ ǫᴜᴇᴇɴ | @Vᴋ_Lɪɴᴋs ★ Should Have Admin Privillage / Rights !!! 
+Tʜᴀʟᴀᴘᴀᴛʜʏ Vɪᴊᴀʏ Should Have Admin Privillage / Rights !!! 
 ♠ Only Admins Can Add Filters In A Chat...
 ♠ Alert Buttons Have A Limit Of 64 Characters...
 
@@ -39,15 +45,15 @@ Commands And Usage :
 • /delall - <code>Delete The Whole Filters In A Chat ( Chat Owner Only )</code></b>"""
     BUTTON_TXT = """<b>Help : Buttons
 
-- ♡ ᴘʀɪʏᴀɴᴋᴀᴀ ǫᴜᴇᴇɴ | @Vᴋ_Lɪɴᴋs ★ Supports Both Url And Alert Inline Buttons.
+- Tʜᴀʟᴀᴘᴀᴛʜʏ Vɪᴊᴀʏ Supports Both Url And Alert Inline Buttons.
 
 NOTE :
 ❖ Telegram Will Not Allows You To Send Buttons Without Any Content, So Content Is Mandatory.
-❖ ♡ ᴘʀɪʏᴀɴᴋᴀᴀ ǫᴜᴇᴇɴ | @Vᴋ_Lɪɴᴋs ★ Supports Buttons With Any Telegram Media Type.
+Tʜᴀʟᴀᴘᴀᴛʜʏ Vɪᴊᴀʏ Supports Buttons With Any Telegram Media Type.
 ❖ Buttons Should Be Properly Parsed As Markdown Format
 
 URL Buttons :
-<code>[Button Text](buttonurl:https://telegram.dog/VKLINKZ_EZONE_BOT)</code>
+<code>[Button Text](buttonurl:https://t.me/KOT_BOTS)</code>
 
 Alert buttons :
 <code>[Button Text](buttonalert:This Is An Alert Message)</code></b>"""
