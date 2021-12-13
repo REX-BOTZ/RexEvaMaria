@@ -71,7 +71,7 @@ async def next_page(bot, query):
 
     ident, req, key, offset = query.data.split("_")
     if int(req) not in [query.from_user.id, 0]:
-        return await query.answer("oKda", show_alert=True)
+        return await query.answer("This is Not for You,Request a New one For You❣️", show_alert=True)
     try:
         offset = int(offset)
     except:
@@ -326,9 +326,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     file_id=file_id,
                     caption=f_caption
                     )
-                await query.answer('Check PM, I have Sended Files In Pm',show_alert = True)
+                await query.answer('Check PM, I have Sended Files In PM',show_alert = True)
         except UserIsBlocked:
-            await query.answer('Unblock the bot man / You Blocked Me, Unblock Me & Try Again',show_alert = True)
+            await query.answer('Unblock the bot mahnn ! Unblock Me & Try Again',show_alert = True)
         except PeerIdInvalid:
             await query.answer(url=f"https://t.me/{temp.U_NAME}?start={file_id}")
         except Exception as e:
@@ -362,16 +362,16 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('🙋‍♂️ Mᴏᴠɪᴇs Rᴇǫᴜᴇsᴛ 🙋‍♂️', url='https://t.me/vkmoviesrequest_zone')
+            InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/VKLINKZ_EZONE_BOT?startgroup=true')
             ],[
-            InlineKeyboardButton('🔍 Search Movies', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('Mᴀɪɴ Cʜᴀɴɴᴇʟ  📮', url='https://t.me/VK_LINKZ')
+            InlineKeyboardButton('🔍 Search Movies 🌟', switch_inline_query_current_chat=''),
+            InlineKeyboardButton('📣 Updates 📌', url='https://t.me/VK_LINKZ')
             ],[
-            InlineKeyboardButton(' Hᴏᴡ Tᴏ Dᴏᴡɴʟᴏᴀᴅ 🔖', url='https://t.me/https://t.me/vkmoviesrequest_zone/3777'),
-            InlineKeyboardButton('Aɴʏ Rᴇᴘᴏʀᴛ 📢', url='https://t.me/KOT_FREE_DE_LA_HOYA_OFF')
+            InlineKeyboardButton('⚠️ Movies Channel 🎬', url='https://t.me/Tamilnewmovies_vk'),
+            InlineKeyboardButton('❣️ Owner 🍹', url='https://t.me/heart_recipe')
             ],[
-            InlineKeyboardButton('🆘 ʜᴇʟᴘ', callback_data='help'),
-            InlineKeyboardButton('Aʙᴏᴜᴛ📌', callback_data='about')
+            InlineKeyboardButton('😥 ʜᴇʟᴘ 🌀', callback_data='help'),
+            InlineKeyboardButton('💓 Aʙᴏᴜᴛ 🗑', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -387,7 +387,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('Extra Mods', callback_data='extra'),
             ],[
             InlineKeyboardButton('🏠 Home', callback_data='start'),
-            InlineKeyboardButton('Status 📈', callback_data='stats')
+            InlineKeyboardButton('🔮 Status 📈', callback_data='stats')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -400,8 +400,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('🏠 Home', callback_data='start'),
             InlineKeyboardButton('🔐 Close', callback_data='close_data')
             ],[
-            InlineKeyboardButton('Mᴀɪɴ Cʜᴀɴɴᴇʟ 📮', url='https://t.me/VK_LINKZ'),
-            InlineKeyboardButton('Mᴏᴠɪᴇs Rᴇǫᴜᴇsᴛ 🔖', url='https://t.me/vkmoviesrequest_zone')
+            InlineKeyboardButton('⚠️ Movies Channel 🎬', url='https://t.me/https://t.me/Tamilnewmovies_vk'),
+            InlineKeyboardButton('📣 Updates 📌', url='https://t.me/VK_LINKZ')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
