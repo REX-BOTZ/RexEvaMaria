@@ -550,9 +550,9 @@ async def auto_filter(client, message):
             )
         imdb=await get_poster(search)
         if imdb and imdb.get('poster'):
-            await message.reply_photo(photo=imdb.get('poster'), caption=f"<b>🗂️ Movie Name : {search}</b>\n\n<b>🏷 Title : <a href={imdb['url']}>{imdb.get('title')}</a>\n🎭 Genres : {imdb.get('genres')}\n📆 Year : <a href={imdb['url']}/releaseinfo>{imdb.get('year')}</a>\n🌟 Ratings : <a href={imdb['url']}/ratings>{imdb.get('rating')}</a> / 10\n\n📢 For More Movies Join Here : @VK_LINKZ</b>", reply_markup=InlineKeyboardMarkup(btn))
+            await message.reply_photo(photo=imdb.get('poster'), caption=f"<b>🗂️ Mᴏᴠɪᴇ Nᴀᴍᴇ : {search}</b>\n\n<b>🏷 Tɪᴛʟᴇ : <a href={imdb['url']}>{imdb.get('title')}</a>\n🎭 Gᴇɴʀᴇꜱ : {imdb.get('genres')}\n📆 Yᴇᴀʀ : <a href={imdb['url']}/releaseinfo>{imdb.get('year')}</a>\n🌟 Rᴀᴛɪɴɢꜱ : <a href={imdb['url']}/ratings>{imdb.get('rating')}</a> / 10\n\n📢 For More Movies Join Here : @KING_OF_THE_CARTOONS_CHANNEL</b>", reply_markup=InlineKeyboardMarkup(btn))
         elif imdb:
-            await message.reply_text(f"<b>🗂️ Movie Name : {search}</b>\n\n<b>🏷 Title : <a href={imdb['url']}>{imdb.get('title')}</a>\n🎭 Genres : {imdb.get('genres')}\n📆 Year : <a href={imdb['url']}/releaseinfo>{imdb.get('year')}</a>\n🌟 Ratings : <a href={imdb['url']}/ratings>{imdb.get('rating')}</a> / 10\n\n📢 For More Movies Join Here : @VK_LINKZ</b>", reply_markup=InlineKeyboardMarkup(btn))
+            await message.reply_text(f"<b>🗂️ Mᴏᴠɪᴇ Nᴀᴍᴇ : {search}</b>\n\n<b>🏷 Tɪᴛʟᴇ : <a href={imdb['url']}>{imdb.get('title')}</a>\n🎭 Gᴇɴʀᴇꜱ : {imdb.get('genres')}\n📆 Yᴇᴀʀ : <a href={imdb['url']}/releaseinfo>{imdb.get('year')}</a>\n🌟 Rᴀᴛɪɴɢꜱ : <a href={imdb['url']}/ratings>{imdb.get('rating')}</a> / 10\n\n📢 For More Movies Join Here : @KING_OF_THE_CARTOONS_CHANNEL</b>", reply_markup=InlineKeyboardMarkup(btn))
         else:
             await message.reply_text(f"<b>🗂️ Movie Name {search} ‌‌‌‌‎ </b>", reply_markup=InlineKeyboardMarkup(btn))
         
