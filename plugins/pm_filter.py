@@ -362,13 +362,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/VKLINKZ_EZONE_BOT?startgroup=true')
+            InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'https://t.me/KOT_MOVIES_FILTER_BOT?startgroup=true')
             ],[
             InlineKeyboardButton('🔍 Search Movies 🌟', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('📣 Updates 📌', url='https://t.me/VK_LINKZ')
+            InlineKeyboardButton('📣 Updates 📌', url='https://t.me/KOT_LINKS_TEAM')
             ],[
-            InlineKeyboardButton('⚠️ Movies Channel 🎬', url='https://t.me/Tamilnewmovies_vk'),
-            InlineKeyboardButton('❣️ Owner 🍹', url='https://t.me/heart_recipe')
+            InlineKeyboardButton('⚠️ Movies Channel 🎬', url='https://t.me/KING_OF_THE_CARTOONS_CHANNEL'),
+            InlineKeyboardButton('❣️ Owner 🍹', url='https://t.me/KOT_BOTS')
             ],[
             InlineKeyboardButton('😥 ʜᴇʟᴘ 🌀', callback_data='help'),
             InlineKeyboardButton('💓 Aʙᴏᴜᴛ 🗑', callback_data='about')
@@ -400,8 +400,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('🏠 Home', callback_data='start'),
             InlineKeyboardButton('🔐 Close', callback_data='close_data')
             ],[
-            InlineKeyboardButton('⚠️ Movies Channel 🎬', url='https://t.me/Tamilnewmovies_vk'),
-            InlineKeyboardButton('📣 Updates 📌', url='https://t.me/VK_LINKZ')
+            InlineKeyboardButton('⚠️ Movies Channel 🎬', url='https://t.me/KING_OF_THE_CARTOONS_CHANNEL'),
+            InlineKeyboardButton('📣 Updates 📌', url='https://t.me/KOT_LINKS_TEAM')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
